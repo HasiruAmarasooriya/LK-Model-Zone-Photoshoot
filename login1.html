@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<link rel="stylesheet" href="styles.css/styles.css">
+	<link rel="stylesheet" href="styles.css/login.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="clearfix">
+			<div class="logo">
+				<img src="image/logo.png" width="350px" height="180px">
+
+			</div>
+
+		</header>
+
+
+		<div class="navbar">
+
+			<a href="index.html">Home</a>
+			<a href="photographers.html">photographers</a>
+			<div class="dropdown">
+				<button class="dropbutton">Photoshoot
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropContent">
+					<a href="weddingday.html">Wedding Photoshoot</a>
+					<a href="preshoot.html">Preshoot</a>
+					<a href="femalemodelphotoshoot.html">Female Model photoshoot</a>
+					<a href="malemodelphotoshoot.html">Male Model photoshoot</a>
+
+				</div>
+
+			</div>
+			<a href="Gallery.html">Gallery</a>
+			<a href="AboutUs.html">About Us</a>
+			<a href="ContactUs.html">Contact Us</a>
+			<div class="login">
+				<a href="login1.html">Login</a>
+
+				<div class="log">
+					<a href="login1.html"><img src="image/log.png" width="50px" height="50px"></a>
+				</div><!--login img-->
+			</div>
+		</div>
+
+
+		<center>
+			<br><br><br>
+			<form id="myform" action="php/login.php" target="" method="post">
+				<br>
+				<h2>LOGIN</h2><br><br>
+				<lable class="la"><input type="radio" name="categories" value="Customer" class="btn">Customer</lable>
+				<lable class="la"><input type="radio" name="categories" value="Vendor" class="btn">Vendor</lable>
+				<lable class="la"><input type="radio" name="categories" value="Admin" class="btn">Admin</lable>
+				<br></br>
+				<!--username-->
+				<input type="text" name="Username" placeholder="Username" required><br><br>
+				<!--password-->
+				<input type="password" id="pwd" name="password1" placeholder="Password"
+					pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9]){5,8} " required><br><br>
+				<a href="changepassword.html" class="lable">Forgot password</a><br><br>
+				<!--checkbox-->
+				<input type="checkbox" id="check" onclick="enableButton3()">
+
+				<lable class="link">Rememeber me</lable>
+				<nbsp>
+					<nbsp>
+						<nbsp>
+							<nbsp>
+								<nbsp>
+									<nbsp>
+										<nbsp>
+											<nbsp>
+												<nbsp>
+													<nbsp>
+														<nbsp>
+															<nbsp>
+
+
+
+																<!--sign in button-->
+																<input type="submit" id="btnsignin" name="btnlogin"
+																	value="Log in" disabled><br><br>
+
+																<!--facebook button-->
+																<a href="https://www.facebook.com/" class="fb">
+
+																	Login with Facebook
+																</a></br></br>
+																<!--google button-->
+																<a href="https://www.google.com/" class="google">
+																	Login with Google
+																</a></br>
+
+
+
+			</form>
+		</center>
+		<center>
+			<lable class="lable">Don't have an account?</lable><br><br>
+			<a href="User_register.html" class="signup">Sign Up</a>
+		</center>
+
+
+		<br><br>
+
+		<footer class="clearfix">
+			<div class="footer-colom">
+
+				<h3>Information</h3>
+				<div class="tweet">
+					<ul>
+						<li><a href="AboutUs.html">About Us</a></li>
+						<li><a href="ContactUs.html">Contact Us</a></li>
+						<li><a href="photographers.html"> photographers</a></li>
+
+					</ul>
+				</div><!-- tweet -->
+
+			</div><!-- footer-colom -->
+
+
+			<div class="footer-colom">
+				<h3>Our Contact</h3>
+				<div class="tweet-contact">
+					<p>LK MODEL ZONE</p>
+				</div><!-- tweet-contact -->
+				<div class="tweet-contact">
+					<p>TelePhone: 076 760 1577</p>
+					<p>e-Mail : modelsend@gmail.com</p>
+					<p>Facebook : www.facebook.com/lkmodelzone</p>
+					<p>Twitter : www.twitter.com/lkmodelzone</p>
+				</div><!-- tweet-contact -->
+
+			</div><!-- footer-colom -->
+
+			<div class="footer-colom">
+				<h3>Follow Us</h3>
+				<div class="tweet-follow">
+				</div><!-- tweet-follow us-->
+
+				<div class="footer-colom">
+
+					<div class="socialmedia">
+						<ul>
+
+							<li><a href="www.facebook.com/lkmodelzone"><img src="image/fb.png"></a></li>
+							<li><a href="www.twitter.com/lkmodelzone"><img src="image/tw.png"></a></li>
+							<li><a href="#"><img src="image/in.png"></a></li>
+							<li><a href="#"><img src="image/yt.png"></a></li><br>
+							<li><a href="#"><img src="image/pin.png"></a></li>
+							<li><a href="#"><img src="image/wa.png"></a></li>
+							<li><a href="#"><img src="image/insta.png"></a></li>
+							<li><a href="#"><img src="image/snap.png"></a></li>
+
+						</ul>
+					</div><!--socialmedeia-->
+				</div><!-- tweet -->
+
+
+
+			</div><!-- footer-colom -->
+		</footer>
+
+
+
+		<div class="copyright clearfix">
+			<div class="left">
+				LK MODEL ZONE© 2024 All Rights Reserved | Privacy Policy
+			</div>
+			<div class="right">
+				Website by:https://www.lkmodelzone.com/
+			</div>
+
+		</div><!--copyright-->
+	</div><!--wrapper-->
+</body>
+
+</html>
