@@ -1,0 +1,138 @@
+/*Register*/
+
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 1px;
+    margin-left: 75px;
+  }
+  
+  .lable1 {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-right: 200px;
+    color: black;
+    font-weight: bold;
+  
+  }
+  
+  .lable2 {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-right: 40px;
+    color: black;
+    font-weight: bold;
+  
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+  
+    margin-left: 150px;
+    width: 50%;
+  }
+  
+  select {
+    margin-left: 150px;
+    width: 50%;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../image/ccb.jpg");
+  }
+  
+  #myformc {
+  
+    margin: 10px 400px 10px 100px;
+    border: 2px solid black;
+    padding-bottom: 10px;
+  }
+  
+  
+  
+  #myformv {
+    margin-right: -170px;
+    margin-left: -400px;
+    border: 2px solid black;
+    padding-bottom: 10px;
+  }
+  
+  
+  .customer {
+    font-family: sans-serif;
+    font-size: 25px;
+  
+    color: black;
+    text-align: center;
+  }
+  
+  .vendor {
+    font-family: sans-serif;
+    font-size: 25px;
+  
+    color: black;
+    text-align: center;
+  }
+  
+  #checkC {
+    margin-left: 150px;
+  }
+  
+  #checkV {
+    margin-left: 150px;
+  }
+  
+  #btnsignup1 {
+    background-color: #20B2AA;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    margin-left: 200px;
+  
+  }
+  
+  #btnsignup2 {
+    background-color: #20B2AA;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    margin-left: 200px;
+  
+  }
+  
+  #btncancel1 {
+    background-color: red;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    margin-left: 20px;
+  
+  }
+  
+  #btncancel2 {
+    background-color: red;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    margin-left: 20px;
+  
+  }
+  
+  .buttons:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  td.col1 {
+    text-align: left;
+    width: 700px;
+  }
+  
+  td.col2 {
+    text-align: right;
+    width: 1000px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #20B2AA;
+  }
